@@ -31,9 +31,9 @@ const Header = () => {
         </div>
 
         {/*  Search */}
-        <div className="items-center flex-grow hidden h-10 bg-yellow-400 rounded-md cursor-pointer hover:bg-yellow-500 sm:flex">
+        <div className="items-center flex-grow hidden h-8 bg-yellow-400 rounded-md cursor-pointer hover:bg-yellow-500 sm:flex">
           <input
-            className="flex-grow flex-shrink w-6 h-full p-2 outline-none rounded-l-md"
+            className="flex-grow flex-shrink h-full p-2 outline-none w-55 lg:w-96 rounded-l-md"
             type="text"
           />
           <SearchIcon className="h-12 p-4" />
