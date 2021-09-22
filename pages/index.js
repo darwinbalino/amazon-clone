@@ -8,12 +8,12 @@ export default function Home({ products }) {
     <div className="bg-gray-100">
       <Head>
         <title>Amazon</title>
+        <link rel="shortcut icon" href="/amazon.png" />
       </Head>
       <Header />
 
       <main className="mx-auto max-w-screen-2xl">
         <Banner />
-
         <ProductFeed products={products} />
       </main>
     </div>
